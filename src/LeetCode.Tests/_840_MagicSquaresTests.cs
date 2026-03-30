@@ -13,5 +13,16 @@ namespace LeetCode.Tests
 
             Assert.Equal(expected, result);
         }
+        [Fact]
+        public void Example2()
+        {
+            var solver = new _840_MagicSquares();
+            int[][] grid = [[8]];
+
+            int expected = 0;
+            int result=solver.Solve(grid);
+
+            Assert.Equal(expected, result);
+        }
     }
 }
