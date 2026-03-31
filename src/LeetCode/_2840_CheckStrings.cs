@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode
+﻿namespace LeetCode
 {
     public class _2840_CheckStrings
     {
+        public const string url = "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/";
+
         public bool Solve(string s1, string s2)
         {
             if (s1.Length != s2.Length)

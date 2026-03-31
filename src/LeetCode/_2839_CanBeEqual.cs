@@ -2,6 +2,8 @@
 {
     public class _2839_CanBeEqual
     {
+        public const string url = "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description/";
+
         public bool Solve(string s1, string s2)
         {
             if (s1 == s2) return true;
